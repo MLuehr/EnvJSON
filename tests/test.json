@@ -3,7 +3,8 @@
         "host": "$DB_HOST",
         "port": "$DB_PORT",
         "username": "$DB_USERNAME",
-        "password": "$DB_PASSWORD",
-        "name": "my_database"
+        "password": "${DB_PASSWORD}",
+        "name": "my_database",
+        "connectionString": "${DB_USERNAME}:${DB_PASSWORD}@$DB_SERVER"
     }
 }
