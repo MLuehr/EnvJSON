@@ -5,7 +5,7 @@ import os
 import sys
 import pytest
 
-from envjson import EnvJSON
+from env2json import EnvJSON
 
 # set os env
 os.environ["DB_HOST"] = "substituted_host"
