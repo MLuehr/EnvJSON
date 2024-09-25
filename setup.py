@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 
-from env2json import __version__
+from varjson import __version__
 
 with open("README.md", "r") as f:
     long_description = f.read()
 
 setup(
-    name="env2json",
+    name="varjson",
     packages=find_packages(exclude=["tests"]),
     version=__version__,
     url="https://github.com/MLuehr/EnvJSON",

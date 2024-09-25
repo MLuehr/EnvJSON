@@ -1,7 +1,7 @@
-env2json
-========
+varjson
+=======
 
-``env2json`` addresses a straightforward challenge: incorporating values from environment variables into JSON configuration files. This functionality is akin to `envyaml <https://github.com/thesimj/envyaml>`_ and `varyaml <https://github.com/abe-winter/varyaml>`_, which offer similar capabilities for YAML, and has significantly inspired this package.
+``varjson`` addresses a straightforward challenge: incorporating values from environment variables into JSON configuration files. This functionality is akin to `envyaml <https://github.com/thesimj/envyaml>`_ and `varyaml <https://github.com/abe-winter/varyaml>`_, which offer similar capabilities for YAML, and has significantly inspired this package.
 
 Example
 -------
@@ -29,10 +29,10 @@ With the environment variables set as follows:
   DB_PASSWORD=veryToughPas$w0rd
 ```  
 
-This configuration can then be parsed using ``env2json`` like this:
+This configuration can then be parsed using ``varjson`` like this:
 
 ```python
-  from env2json import EnvJSON
+  from varjson import EnvJSON
 
   cfg = EnvJSON(json_file="./config.json", strict=True)
 
