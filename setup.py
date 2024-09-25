@@ -7,7 +7,7 @@ with open("README.md", "r") as f:
     long_description = f.read()
 
 setup(
-    name="envyaml",
+    name="envjson",
     packages=find_packages(exclude=["tests"]),
     version=__version__,
     url="https://github.com/MLuehr/EnvJSON",
